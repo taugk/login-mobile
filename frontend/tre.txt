@@ -1,0 +1,29 @@
+lib/
+├─ app/
+│  ├─ app.dart
+│  └─ routes.dart
+├─ core/
+│  ├─ constants/
+│  │  └─ app_config.dart
+│  ├─ network/
+│  │  └─ api_service.dart
+│  └─ storage/
+│     └─ local_storage.dart
+├─ features/
+│  ├─ auth/
+│  │  ├─ models/
+│  │  │  └─ user_model.dart
+│  │  ├─ repositories/
+│  │  │  └─ auth_repository.dart
+│  │  ├─ viewmodels/
+│  │  │  └─ auth_viewmodel.dart
+│  │  └─ views/
+│  │     ├─ forgot_password_view.dart
+│  │     ├─ login_view.dart
+│  │     ├─ register_view.dart
+│  │     ├─ reset_password_view.dart
+│  │     └─ verifyToken_view.dart
+│  └─ home/
+│     └─ views/
+│        └─ home_view.dart
+└─ main.dart
