@@ -34,21 +34,7 @@ Proyek ini menggunakan **Feature-First Layered Architecture** untuk memastikan p
 - Flutter SDK v3.10 atau lebih baru.
 - Backend API yang sudah berjalan.
 
-### 2. Clone & Install
-
-```bash
-# Clone repositori
-git clone https://github.com/username/coralis-auth.git
-
-# Masuk ke direktori
-cd coralis-auth
-
-# Install dependensi
-flutter pub get
-
-```
-
-### 3. Konfigurasi Environment
+### 2. Konfigurasi Environment
 
 Buat file `.env` di root project (sejajar dengan `pubspec.yaml`):
 
@@ -59,7 +45,7 @@ BASE_URL=http://192.168.1.xx:5000/api/auth
 
 _Catatan: Gunakan IP address lokal (bukan localhost) jika menjalankan di device fisik._
 
-### 4. Update pubspec.yaml
+### 3. Update pubspec.yaml
 
 Pastikan file `.env` terdaftar di bagian assets:
 
